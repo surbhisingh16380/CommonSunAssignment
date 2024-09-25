@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="https://soap.sforce.com/2006/04/metadata">
+    <fullName>Price__c</fullName>
+    <label>Price</label>
+    <type>Currency</type>
+    <precision>16</precision>  <!-- Use precision to define total digits including decimals -->
+    <scale>2</scale>            <!-- Scale defines how many decimal places are allowed -->
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>
