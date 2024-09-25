@@ -1,11 +1,12 @@
-# CommonSun Salesforce CRM Assignment
+# CommonSun Salesforce CRM Enhancements
 
-This project enhances the CommonSun Inc. Salesforce CRM system by implementing custom Apex triggers, classes, and automation for lead assignment, opportunity revenue calculation, and opportunity stage updates.
+This repository contains Apex code and triggers to enhance the functionality of CommonSun Inc's Salesforce CRM. The project involves implementing custom Apex triggers, classes, and automation for lead assignment, opportunity revenue calculation, and opportunity stage updates.
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Features](#features)
+- [Key Features](#key-features)
+- [Efficiency and Effectiveness](#efficiency-and-effectiveness)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Testing](#testing)
@@ -15,25 +16,27 @@ This project enhances the CommonSun Inc. Salesforce CRM system by implementing c
 
 This project streamlines and enhances Salesforce CRM for CommonSun Inc. The key enhancements focus on automating lead management and opportunity revenue calculations, which are critical in improving the overall sales process and business performance tracking.
 
-The main features implemented in this project include:
-- Automating lead assignments based on custom business rules
-- Validating leads based on criteria such as email, industry, and company size
-- Dynamically calculating revenue for opportunities using custom Apex logic
-- Automatically updating opportunity stages based on business logic
+## Key Features
 
-## Features
+1. **Lead Assignment Automation**: 
+   - Automatically assigns leads based on predefined criteria, ensuring quicker response times.
+   - Validates incoming leads based on criteria such as email, industry, and company size.
 
-### 1. Automated Lead Assignment
-The system automatically assigns leads to the appropriate users based on predefined business logic and criteria.
+2. **Opportunity Revenue Calculation**: 
+   - Ensures that opportunity revenue is calculated automatically when a related record is updated.
+   - Uses custom Apex logic to dynamically calculate revenue based on factors such as product prices and discounts.
 
-### 2. Lead Qualification Validation
-Apex triggers validate that incoming leads meet certain criteria, such as having valid emails or phone numbers.
+3. **Stage Update Automation**: 
+   - Automates the progression of opportunity stages based on business criteria, streamlining the sales process.
+   - Updates opportunity stages based on specific events or milestones.
 
-### 3. Opportunity Revenue Calculation
-The custom logic dynamically calculates and updates opportunity revenue based on factors such as product prices and discounts.
+## Efficiency and Effectiveness
 
-### 4. Opportunity Stage Update
-Automated triggers update the opportunity stages based on specific events or milestones.
+These solutions help CommonSun Inc. in the following ways:
+
+- **Efficiency**: Automation of manual tasks like lead assignment and revenue calculation reduces human error and saves time.
+- **Data Accuracy**: Automatically calculated fields ensure that sales data remains consistent and accurate.
+- **Improved Sales Workflow**: Automated stage progression keeps the sales pipeline moving without manual intervention, improving overall sales team productivity.
 
 ## Setup Instructions
 
